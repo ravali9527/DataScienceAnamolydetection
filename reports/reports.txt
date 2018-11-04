@@ -1,1 +1,23 @@
+Data set used :
+Real Traffic Data set 
 
+Data used : speed data (Speed_6005.csv)
+
+Over view of Dataset: This dataset set contains details about the occupancy based on traffic and speed 
+
+Data given :
+The given data set contains the speed at which a vehicle is travelling at a particular time.
+
+Feature engineering:
+
+1)number of vehicles travelling on each day at a particular sped
+2)Extracted data about how many vehicles are travelling at a speed grater than 90 at a particular time
+
+Algorithm Used :
+
+1)Used DBSCAN Algorithm to detect the outliers in given data set 
+2)DBSCAn algorithm uses clustering approach to find the anomalies in the given data set
+3)The data points which are of maximum distance from any cluster are represented by -1 which states those are anomalies
+4)Used box plots to determine which are outliers 
+5)
+From the plot we can state the 17 outliers in given data set . 
