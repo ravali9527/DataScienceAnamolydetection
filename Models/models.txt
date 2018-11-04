@@ -1,1 +1,10 @@
 
+Model used :
+DBSCAN Algorithm 
+Density based clustering
+
+How it works?
+
+Based on a set of points , DBSCAN groups together points that are close to each other based on a distance measurement and a minimum number of points. It also marks as outliers the points that are in low-density regions.
+
+In my data set it marks the Data points with -1 to identify those are outliers
